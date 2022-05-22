@@ -1,1 +1,1 @@
-# Rorippa_synergistic-polyploidization-and-LDD
+This is the R scripts used in the project
