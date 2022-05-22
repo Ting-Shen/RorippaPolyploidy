@@ -1,9 +1,11 @@
 This is the R scripts used in the project
 
-asr_ploidy.R 
+asr_ploidy.R
+
 The R script used for ancestral ploidy state reconstruction under two or multiple ploidy level models (TPL or MPL model).
 
 In the custom TPL model, species were divided into diploidy or polyploidy according to the basic chromosome number x = 8. Transition can only happen from diploidy (state x) to polyploidy (state y) but not the reverse:
+
 ![image](https://user-images.githubusercontent.com/48637894/169685532-497b7c48-3280-47f2-adb0-8b2eaf0847bd.png)
 
 In the custom MPL model, species were divided into multiple ploidy levels ranging from diploidy (2x; x means the basic chromosome number) to high ploidy (-x; the number (-) before x means the corresponding ploidy levels). The chromosome number information for Rorippa species was obtained using information from available databases or publications described above. Transition can only happen from low (state group of x) to high ploidy (state group of y) 
